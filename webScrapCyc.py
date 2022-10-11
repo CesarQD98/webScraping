@@ -17,8 +17,6 @@ try:
     cheapestURL = microphones.get('href')
 
     webbrowser.open(cheapestURL)
-        
-
 
 except:
     print('More than one word inputs should be typed with double quotes -> \"\"')
